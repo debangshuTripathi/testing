@@ -4,5 +4,6 @@ services:
     plan: free
     branch: main
     region: oregon
+    runtime: docker
     dockerfilePath: ./Dockerfile
     autoDeploy: true
